@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: hello-vienna
-  description: Tanzu Java Web App
+  description: Java App
   tags:
     - app-accelerator
     - java
