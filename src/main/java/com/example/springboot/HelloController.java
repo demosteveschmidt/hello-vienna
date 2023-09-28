@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		return "Greetings from Spring Boot at the CNCF Meetup!";
+		return "\uD83D\uDCE6 Cloud Native Buildpacks and \uD83C\uDF31 Spring Boot at the CNCF Meetup \uD83C\uDDE6\uD83C\uDDF9 in Vienna!";
 	}
 
 }
