@@ -1,14 +1,16 @@
 package com.example.springboot;
 
-import java.util.Arrays;
-
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/*
+import java.util.Arrays;
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.boot.actuate.web.exchanges.HttpExchangeRepository;
 import org.springframework.boot.actuate.web.exchanges.InMemoryHttpExchangeRepository;
+*/
 
 @SpringBootApplication
 public class Application {
@@ -17,6 +19,7 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 	}
 
+/* 	
 	@Bean
 	public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
 		return args -> {
@@ -36,4 +39,6 @@ public class Application {
 	public HttpExchangeRepository htttpTraceRepository() {
 		return new InMemoryHttpExchangeRepository();
 	}
+*/
+
 }
